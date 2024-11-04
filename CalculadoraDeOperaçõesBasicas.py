@@ -1,0 +1,7 @@
+N1 = float(input("Digite um NUMERO!"))
+Op = input ("Digite uma OPERAÇÃO!")
+N2 = float(input("Digite outro NUMERO!"))
+if Op == "+": print (f"O resultado dessa soma é" , (N1) + (N2))
+elif Op == "-": print (f"O resultado dessa subtração é" , (N1) - (N2))
+elif Op == "*": print (f"O resultado dessa multiplicação é," , (N1) * (N2))
+elif Op == "/": print (f"O resultado dessa divisão é," , (N1) / (N2))
